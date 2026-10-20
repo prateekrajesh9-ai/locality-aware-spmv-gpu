@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+# Build outputs
+build/
+cuda/spmv_bench
+*.o
+# Large inputs (download with scripts/download_matrices.sh)
+data/*
+!data/.gitkeep
+*.mtx
+*.tar.gz
+# Profiler / OS
+*.ncu-rep
+*.nsys-rep
+.DS_Store
